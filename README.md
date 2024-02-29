@@ -13,7 +13,7 @@ class Attributes extends Kuro {
 
     get life() {
         const language = ['Vietnamese', 'English'];
-        const age = 24;
+        const age = 18;
 
         return [language, age];
     }
