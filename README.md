@@ -1,16 +1,33 @@
-### Hi there 👋
+```javascript
+class Kuro {}
 
-<!--
-**DuyKuro/DuyKuro** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class Attributes extends Kuro {
+    get contact() {
+        const discord = "discord.gg/tB3tBVbG";
+        const telegram = "t.me/WusJunoo";
+        const facebook = "fb.com/NinhQuocDuy.Dev";
+        const email = "iamninhquocduy@gmail.com";
 
-Here are some ideas to get you started:
+        return [discord, telegram, facebook, email];
+    }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    get life() {
+        const language = ['Vietnamese', 'English'];
+        const age = 24;
+
+        return [language, age];
+    }
+
+    get coding() {
+        const langs = {
+            'expert': ['python', 'typescript', 'html', 'css'],
+            'intermediate': ['go', 'js', 'React.js', 'Angular.js', 'Vue.js', 'Node.js', 'Express.js', 'Next.js', 'Nest.js', 'Svelte.js', 'Meteor.js', 'Ember.js', 'Backbone.js'],
+            'learning': ['c', 'c++', 'c#', 'asm', 'java']
+        };
+        const specialities = ['web/app reverse engineering', 'fullstack'];
+        const environnement = ['vscode'];
+
+        return [langs, specialities, environnement];
+    }
+}
+```
