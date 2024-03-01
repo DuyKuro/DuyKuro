@@ -3,8 +3,8 @@ class Kuro {}
 
 class Attributes extends Kuro {
     get contact() {
-        const discord = "discord.gg/tB3tBVbG";
-        const telegram = "t.me/WusJunoo";
+        const discord = "discord.gg/DRMSspRq7c";
+        const telegram = "t.me/DuyKuro";
         const facebook = "fb.com/NinhQuocDuy.Dev";
         const email = "iamninhquocduy@gmail.com";
 
